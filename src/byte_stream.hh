@@ -3,7 +3,10 @@
 #include <cstdint>
 #include <string>
 #include <string_view>
+<<<<<<< HEAD
 #include <queue>
+=======
+>>>>>>> upstream/check1-startercode
 
 class Reader;
 class Writer;
@@ -24,6 +27,7 @@ public:
 
 protected:
   // Please add any additional state to the ByteStream here, and not to the Writer and Reader interfaces.
+<<<<<<< HEAD
   std::string buf_ {};
   
   uint64_t total_r_ ;
@@ -32,6 +36,9 @@ protected:
 
   uint64_t capacity_ ;
   std::string str {};
+=======
+  uint64_t capacity_;
+>>>>>>> upstream/check1-startercode
   bool error_ {};
 };
 
